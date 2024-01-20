@@ -73,6 +73,7 @@ namespace ConsoleApp_10
             //              .HasOne(u => u.Company)                      if delete company we also delete employees (who work in this company)
             //              .WithMany(c => c.Employees)
             //              .OnDelete(DeleteBehavior.Cascade);
+
         }
     }
 }
